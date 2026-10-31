@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plateforme de Révision - Annales Personnalisées</title>
+    <!-- Tailwind CSS pour un design moderne et 100% responsive -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col">
+
+    <!-- HEADER / HORLOGE -->
+    <header class="bg-slate-950 border-b border-slate-800 py-3 px-4 flex flex-col sm:flex-row justify-between items-center shadow-md">
+        <div class="flex items-center space-x-3 mb-2 sm:mb-0">
+            <span class="text-2xl">🎓</span>
+            <h1 class="text-lg font-bold tracking-wide text-sky-400">Plateforme de Révision</h1>
+        </div>
+        <div id="clock-container" class="text-sm font-semibold text-slate-300 bg-slate-900 px-4 py-1.5 rounded-full border border-slate-800">
+            Chargement de l'horloge...
+        </div>
+    </header>
+
+    <!-- CONTENEUR PRINCIPAL (Géré par JavaScript selon connexion) -->
+    <main id="app-container" class="flex-1 flex flex-col p-4 sm:p-6 max-w-7xl mx-auto w-full">
+        <!-- Écran de Connexion injecté dynamiquement -->
+    </main>
+
+    <!-- Script principal de l'application web -->
+    <script src="app.js"></script>
+</body>
+</html>

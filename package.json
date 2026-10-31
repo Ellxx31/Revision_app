@@ -1,0 +1,9 @@
+{
+  "name": "revision-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Plateforme de Revision en ligne",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
